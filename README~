@@ -1,0 +1,25 @@
+hardcore-model - an MCMC simulation of the hard-core model from physics.
+
+Dependencies
+------------
+It requires the "animation" package and the "sna" package.
+They can be installed in an R session with the following line:
+
+> install.packages(c("animation", "sna"))
+
+License
+-------
+Copyright (c) 2013, J. Benjamin Cook
+All rights reserved.
+
+Contact
+-------
+jbenjamincook@gmail.com
+
+To test the whole project, run the following line in an R session:
+
+source("hardcore-model.R")
+
+When the program finishes running, plots can be found in the 
+hardcore-model/output folder and an animation can be found 
+in hardcore-model/output/animation/animation.html.
