@@ -67,4 +67,4 @@ predicted <- qStar
 actual <- casino
 
 print(table(predicted, actual))
-cat(paste(100 * sum(qStar == casino)/T, "% correct\n", sep=""))
+cat(paste("\n", 100 * sum(qStar == casino)/T, "% correct\n", sep=""))

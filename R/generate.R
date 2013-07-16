@@ -2,7 +2,7 @@
 die <- "F"
 casino <- die
 
-cat("Generating 10,000 rolls... \n")
+cat("Generating 10,000 rolls... \n\n")
 rolls <- NULL
 for (i in 1:10000){
    if (die == "F"){
